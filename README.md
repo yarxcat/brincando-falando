@@ -21,7 +21,7 @@ Estimular a fala e a convivência entre crianças por meio de uma interface simp
 ---
 
 ## 🚀 Como acessar
-- 🔗 [Clique aqui para abrir o site](https://SEUUSUARIO.github.io/NOMEDOREPOSITORIO/)  
+- 🔗 [Clique aqui para abrir o site](https://yarxcat.github.io/brincando-falando/)
 - 📂 [Repositório com os códigos](https://github.com/SEUUSUARIO/NOMEDOREPOSITORIO)  
 
 ---
