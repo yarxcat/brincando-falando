@@ -1,10 +1,10 @@
 function mostrarAtividade(tipo) {
-  let conteudo = document.getElementById("conteudo");
+  let resultado = document.getElementById("resultado");
   if (tipo === "historia") {
-    conteudo.innerHTML = "<h3>📖 Histórias</h3><p>Era uma vez... Aqui você pode contar histórias que incentivam a fala das crianças.</p>";
+    resultado.innerHTML = "<h3>📖 Histórias</h3><p>Era uma vez... um recurso para professores contarem histórias que incentivam as crianças a falarem mais.</p>";
   } else if (tipo === "musica") {
-    conteudo.innerHTML = "<h3>🎵 Músicas</h3><p>Cante músicas com gestos, sons repetidos e rimas divertidas para estimular a comunicação.</p>";
+    resultado.innerHTML = "<h3>🎵 Músicas</h3><p>Cante músicas com gestos e rimas fáceis, estimulando fala, ritmo e socialização.</p>";
   } else if (tipo === "roda") {
-    conteudo.innerHTML = "<h3>🗣️ Roda de Conversa</h3><p>Promova uma roda de conversa para que as crianças pratiquem ouvir e falar em grupo.</p>";
+    resultado.innerHTML = "<h3>🗣️ Roda de Conversa</h3><p>Atividade em grupo para desenvolver habilidades de escuta, respeito e diálogo.</p>";
   }
 }
