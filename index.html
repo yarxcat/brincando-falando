@@ -4,36 +4,54 @@
   <meta charset="UTF-8">
   <title>Brincando e Aprendendo a Falar</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 </head>
 <body>
+  <nav>
+    <h1>🎲 Brincando e Aprendendo</h1>
+    <ul>
+      <li><a href="#atividades">Atividades</a></li>
+      <li><a href="#conteudo">Conteúdo</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+    </ul>
+  </nav>
+
   <header>
-    <h1>🎲 Brincando e Aprendendo a Falar 🗣️</h1>
-    <p>Atividades lúdicas para estimular a comunicação infantil</p>
+    <h2>🗣️ Estimulando a fala de forma divertida!</h2>
+    <p>Histórias, músicas e rodas de conversa para melhorar a comunicação infantil.</p>
   </header>
 
   <main>
-    <section class="cards">
+    <section id="atividades" class="cards">
       <div class="card" onclick="mostrarAtividade('historia')">
         <h2>📖 Histórias</h2>
-        <p>Contação de histórias para incentivar a fala e a imaginação.</p>
+        <p>Contação de histórias que despertam a imaginação.</p>
       </div>
       <div class="card" onclick="mostrarAtividade('musica')">
         <h2>🎵 Músicas</h2>
-        <p>Cante com gestos e repetições para estimular a comunicação.</p>
+        <p>Canções com gestos e repetições para estimular a fala.</p>
       </div>
       <div class="card" onclick="mostrarAtividade('roda')">
         <h2>🗣️ Roda de Conversa</h2>
-        <p>Atividades em grupo para ouvir, dialogar e respeitar o outro.</p>
+        <p>Diálogo em grupo para ouvir e se expressar melhor.</p>
       </div>
     </section>
 
     <section id="conteudo">
-      <p>👉 Clique em uma atividade para começar!</p>
+      <h3>👉 Clique em uma atividade acima para começar!</h3>
+      <div class="box" id="resultado"></div>
+    </section>
+
+    <section id="sobre">
+      <h3>ℹ️ Sobre o Projeto</h3>
+      <p>Este sistema foi criado como parte do PIT II de Sistemas de Informação, com o objetivo de propor soluções digitais simples que incentivem o desenvolvimento da comunicação infantil.</p>
     </section>
   </main>
 
   <footer>
-    <p>Desenvolvido por Moniky Yara Flores - PIT II</p>
+    <p>Desenvolvido por <strong>Moniky Yara Flores</strong> - 2025</p>
   </footer>
 
   <script src="script.js"></script>
