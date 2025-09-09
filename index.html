@@ -3,61 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <title>Brincando e Aprendendo a Falar</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background-color: #fceabb;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background: #ffb347;
-      color: white;
-      padding: 20px;
-      font-size: 24px;
-      font-weight: bold;
-    }
-    button {
-      margin: 15px;
-      padding: 15px 25px;
-      font-size: 18px;
-      border: none;
-      border-radius: 8px;
-      background: #ff6f61;
-      color: white;
-      cursor: pointer;
-    }
-    button:hover {
-      background: #ff3b2e;
-    }
-    #conteudo {
-      margin-top: 30px;
-      font-size: 20px;
-      color: #333;
-      padding: 20px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>Brincando e Aprendendo a Falar</header>
-  <button onclick="mostrarAtividade('historia')">Histórias</button>
-  <button onclick="mostrarAtividade('musica')">Músicas</button>
-  <button onclick="mostrarAtividade('roda')">Roda de Conversa</button>
+  <header>
+    <h1>🎲 Brincando e Aprendendo a Falar 🗣️</h1>
+    <p>Atividades lúdicas para estimular a comunicação infantil</p>
+  </header>
 
-  <div id="conteudo">Clique em uma atividade para começar!</div>
+  <main>
+    <section class="cards">
+      <div class="card" onclick="mostrarAtividade('historia')">
+        <h2>📖 Histórias</h2>
+        <p>Contação de histórias para incentivar a fala e a imaginação.</p>
+      </div>
+      <div class="card" onclick="mostrarAtividade('musica')">
+        <h2>🎵 Músicas</h2>
+        <p>Cante com gestos e repetições para estimular a comunicação.</p>
+      </div>
+      <div class="card" onclick="mostrarAtividade('roda')">
+        <h2>🗣️ Roda de Conversa</h2>
+        <p>Atividades em grupo para ouvir, dialogar e respeitar o outro.</p>
+      </div>
+    </section>
 
-  <script>
-    function mostrarAtividade(tipo) {
-      let conteudo = document.getElementById("conteudo");
-      if (tipo === "historia") {
-        conteudo.innerHTML = "📖 Era uma vez... Aqui você pode contar histórias para incentivar a fala das crianças!";
-      } else if (tipo === "musica") {
-        conteudo.innerHTML = "🎵 Cante músicas com gestos e repetições para estimular a comunicação.";
-      } else if (tipo === "roda") {
-        conteudo.innerHTML = "🗣️ Faça uma roda de conversa para que as crianças pratiquem ouvir e falar.";
-      }
-    }
-  </script>
+    <section id="conteudo">
+      <p>👉 Clique em uma atividade para começar!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por Moniky Yara Flores - PIT II</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
