@@ -4,6 +4,8 @@
 Projeto desenvolvido no **PIT II - Sistemas de Informação**.  
 O objetivo é apoiar o desenvolvimento da comunicação de crianças da Educação Infantil, utilizando atividades lúdicas (histórias, músicas e rodas de conversa).
 
+> ℹ️ Este projeto é a continuação do PIT I, em que foi desenvolvida a proposta teórica da solução.  
+> No PIT II, foi criada a parte prática, com aplicação web, banco de dados e documentação completa.
 ---
 
 ## 🌟 Objetivo
@@ -16,7 +18,16 @@ Estimular a fala e a convivência entre crianças por meio de uma interface simp
 - **CSS3** → estilização e layout  
 - **JavaScript** → interatividade  
 - **GitHub Pages** → hospedagem  
-- **MySQL (modelo físico)** → banco de dados  
+- **MySQL (modelo físico)** → banco de dados
+
+---
+## 📱 Ferramentas utilizadas
+
+- **GitHub Mobile** → criação do repositório, upload de arquivos e publicação via GitHub Pages.  
+- **Textor** → editor de texto para criação e edição de arquivos HTML, CSS e JavaScript.  
+- **dbdiagram.io** → criação do diagrama ER do banco de dados.  
+- **Google Fonts** → fonte personalizada para a interface.    
+
 
 ---
 
@@ -77,3 +88,4 @@ CREATE TABLE Participacao (
   FOREIGN KEY (crianca_id) REFERENCES Crianca(id),
   FOREIGN KEY (atividade_id) REFERENCES Atividade(id)
 );
+
